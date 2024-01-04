@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- container strt here -->
+    <div class="container">
+      <!-- nav section strt here -->
+      <div class="nav-top mx-1">
+        <nav class="navbar navbar-expand-xxl">
+          <div class="container">
+            <a href="index.html" class="navbar-brand"
+              ><img src="image/logo.png" alt=""
+            /></a>
+
+            <button
+              class="navbar-toggler"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarIcon"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarIcon">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                  <a href="#" class="nav-link">HOME</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link">JOB LISTING</a>
+                </li>
+
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="navbarDropdown"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    JOB CATEGORY
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Another action</a>
+                    </li>
+                    <li><hr class="dropdown-divider" /></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </li>
+                  </ul>
+                </li>
+
+                <li class="nav-item">
+                  <a href="#" class="nav-link">PROTFOLIO</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link">JOB NEWS</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <div class="login-section mx-3">
+          <div class="login-top">
+            <p>
+              <img src="image/p.png" alt="" /><span
+                ><a href="login.html">Login</a></span
+              >
+            </p>
+          </div>
+          <div class="login-top">
+            <p>
+              <img src="image/p.png" alt="" /><span
+                ><a href="register.html">Register</a></span
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- nav section end here -->
+
+      <!-- register section strt here -->
+      <section class="register-section">
+        <div class="login">
+          <div class="register-title"><h3>একটি একাউন্ট তৈরী করুন</h3></div>
+
+          <div class="formint conForm">
+            <form>
+              <div class="input-wrap">
+                <input
+                  type="text"
+                  placeholder="First Name"
+                  class="form-control"
+                />
+              </div>
+
+              <div class="input-wrap">
+                <input
+                  type="text"
+                  placeholder="Last Name"
+                  class="form-control"
+                />
+              </div>
+
+              <div class="input-wrap">
+                <input
+                  placeholder="Email address / Phone Number"
+                  type="text"
+                  class="form-control"
+                />
+              </div>
+
+              <div class="select-group">
+                <select>
+                  <option>Select Division</option>
+                  <option value="Dhaka">Dhaka</option>
+                  <option value="Chittagong">Chittagong</option>
+                  <option value="Sylhet">Sylhet</option>
+                  <option value="Rajshahi">Rajshahi</option>
+                  <option value="Khulna">Khulna</option>
+                  <option value="Barishal">Barishal</option>
+                  <option value="Rangpur">Rangpur</option>
+                  <option value="Mymenshingh">Mymenshingh</option>
+                </select>
+              </div>
+              <div class="input-wrap">
+                <input
+                  type="password"
+                  name="password"
+                  placeholder="Password"
+                  class="form-control"
+                  required=""
+                />
+              </div>
+              <div class="input-wrap">
+                <input
+                  type="password"
+                  name="confirm_password"
+                  placeholder="Confirm Password"
+                  class="form-control"
+                  required=""
+                />
+              </div>
+
+              <button class="login-sub-btn reg-btn" type="submit">
+                Register Now
+              </button>
+
+              <div class="newuser newuser-reg">
+                <img src="image/p.png" alt="" />
+                <p>Already Have Account?</p>
+                <a href="">Login Here</a>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+      <!-- register section end here -->
+      <!-- footer section start here -->
+      <section class="section-6">
+        <div class="footer">
+          <div class="footer-top">
+            <img src="image/footer-logo.png" alt="" />
+            <p>
+              eJobs featured jobs are shown here, You select the job according
+              to your skill. Apply by clicking on & Apply Now If you have not
+              created your CV at eJobs, create a CV, eJobs featured jobs are
+              shown here, You select the job according to your skill. Apply by
+              clicking on & Apply Now If you have not created your CV at eJobs,
+              create a CV.
+            </p>
+          </div>
+          <div class="quick-link">
+            <h3>QUICK LINKS</h3>
+            <p><a href="#">About Us</a></p>
+            <p><a href="#">Contact Us</a></p>
+          </div>
+          <div>
+            <p>Copyright © 2024 eJobs Developer Team - All Rights Reserved.</p>
+          </div>
+        </div>
+      </section>
+      <!-- footer section end here -->
+    </div>
+    <!-- container end here -->
+
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+  </body>
+</html>
